@@ -3,7 +3,7 @@ var studentDB = require('../db/studentDB');
 
 var studentRouter = express.Router();
 studentRouter.get("/findAll",function(req,resp){
-  console.log("要钱的来了。。。");
+  console.log("要钱的来了...");
   resp.writeHead(200,'ok',{
     "Content-Type":"text/plain;charset=utf-8",
     "Access-Control-Allow-Origin":"*"
